@@ -1,0 +1,27 @@
+:root{
+    --primary: #0d6efd;
+    --drak: #21252f;
+    --body: #888;
+    --boxshadow: 0 8px 22px rgba(0,0,0,0.2);
+}
+form .form-control{
+    border: transparent;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.04);
+}
+.footer-top{
+    background-color: var(--drak);
+    padding: 90px;
+    padding-bottom: 90px;   
+}
+
+.footer-top a{
+    color: var(--body);
+}
+
+.footer-top a:hover{
+    color: #fff;
+}
+section{
+    padding: 34px;
+}
